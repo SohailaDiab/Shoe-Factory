@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="css/loginreg.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button">
+                <div class="btn" id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <!--LOGIN-->
+            <form id="login" class="input-group">
+                <h2>Welcome Back!</h2></br>
+                <input type="text" class="text input-field" placeholder="Email" required>
+                <input type="password" class="text input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <!--REGISTER-->
+            <form id="register" class="input-group">
+                <input type="text" class="text input-field" placeholder="Full Name" required>
+                <input type="email" class="text input-field" placeholder="Email" required>
+                <input type="number" class="text input-field" placeholder="Mobile Number" required>
+                <input type="password" class="text input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+
+        </div>
+    </div>
+   
+<!--script-->
+<script src="JS/finaljs.js">
+
+</script>
+
+</body>
+</html>
